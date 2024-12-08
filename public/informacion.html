@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Más Información - Denti Salud Móvil</title>
+  <link href="../dist/styles.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased text-gray-800">
+
+
+  <section class="hero-section relative bg-cover bg-center text-white text-center h-80 sm:h-[28rem] md:h-[35rem]" style="background-image: url('../images/background-info.jpg');">
+    <div class="bg-black bg-opacity-50 w-full h-full absolute top-0 left-0"></div> <!-- Overlay -->
+    <div class="relative z-10 py-10 px-6">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold">Más Información</h1>
+      <p class="mt-4 text-lg sm:text-xl md:text-2xl">Descubre más sobre nuestros servicios y compromiso contigo.</p>
+    </div>
+  </section>
+
+  <section class="about-section text-center py-16 px-4 bg-gray-50">
+    <h2 class="text-4xl sm:text-5xl md:text-6xl font-semibold text-customBlue mb-8">¿Quiénes somos?</h2>
+    <p class="text-gray-600 max-w-3xl mx-auto mb-6 text-lg sm:text-xl">
+      En Denti Salud Móvil, estamos dedicados a llevar atención dental de calidad a comunidades que enfrentan barreras para acceder a un centro dental. Nos comprometemos a mejorar la salud oral y la calidad de vida de nuestros pacientes.
+    </p>
+    <!-- <img src="../images/team-dental.jpg" alt="Equipo de Denti Salud" class="w-full max-w-4xl mx-auto rounded-lg shadow-md"> -->
+  </section>
+
+  
+  <section class="services-section bg-customBlue py-16 px-4 text-center">
+    <h2 class="text-4xl sm:text-5xl md:text-6xl font-semibold text-white mb-6">Nuestros Servicios</h2>
+    <p class="text-gray-100 max-w-3xl mx-auto mb-8 text-lg sm:text-xl">
+      Ofrecemos una amplia gama de servicios dentales, desde limpiezas básicas hasta procedimientos avanzados, siempre con los más altos estándares de calidad y seguridad.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <!-- Service Items -->
+      <div class="service-item bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-xl">
+        <img src="../images/limpieza-dental.png" alt="Limpiezas dentales" class="w-16 h-16 mx-auto mb-4">
+        <p class="text-lg font-semibold">Limpiezas Dentales</p>
+        <p class="text-gray-600 mt-2">Mantenemos tu sonrisa limpia y saludable con tratamientos efectivos y seguros.</p>
+      </div>
+      <div class="service-item bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-xl">
+        <img src="../images/restauraciones.png" alt="Restauraciones" class="w-16 h-16 mx-auto mb-4">
+        <p class="text-lg font-semibold">Restauraciones</p>
+        <p class="text-gray-600 mt-2">Reparamos dientes dañados devolviéndoles su función y estética.</p>
+      </div>
+      <div class="service-item bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-xl">
+        <img src="../images/extraccion.png" alt="Extracciones" class="w-16 h-16 mx-auto mb-4">
+        <p class="text-lg font-semibold">Extracciones Dentales</p>
+        <p class="text-gray-600 mt-2">Eliminamos dientes comprometidos de forma segura y sin dolor.</p>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="contact-section bg-gray-50 py-16 px-4 text-center">
+    <h2 class="text-4xl sm:text-5xl md:text-6xl font-semibold text-customBlue mb-8">Contáctanos</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto mb-6 text-lg sm:text-xl">
+      ¿Tienes dudas o necesitas más información? Escríbenos y con gusto te atenderemos.
+    </p>
+    <button class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded">Contáctanos Ahora</button>
+  </section>
+
+  <footer class="footer bg-gray-800 text-gray-200 py-8">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    
+      <aside class="mb-4 md:mb-0 text-center md:text-left">
+        <svg width="50" height="50" fill="currentColor" class="text-green-500 mx-auto md:mx-0">
+          
+          <!-- <path d="..."></path> -->
+        </svg>
+        <p class="mt-2 text-sm">
+          Denti Salud Móvil<br>Tu sonrisa, nuestra misión.
+        </p>
+      </aside>
+     
+      <nav>
+        <h6 class="footer-title font-semibold">Síguenos</h6>
+        <div class="flex justify-center space-x-4 mt-2">
+          <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-white">Twitter</a>
+          <a href="#" aria-label="YouTube" class="text-gray-400 hover:text-white">YouTube</a>
+          <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-white">Facebook</a>
+        </div>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+<script src="../src/js/animation-information.js"></script>
+
+</html>
